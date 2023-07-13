@@ -1,11 +1,11 @@
 import * as React from "react"
 
-function AboutPage() {
+function About() {
   return (
-    <div className="about-container">
-      <p>About me.</p>
+    <div className="aboutr">
+      <p>About me</p>
     </div>
   )
 }
 
-export default AboutPage
+export default About
