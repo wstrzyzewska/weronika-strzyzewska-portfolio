@@ -15,8 +15,8 @@ function App() {
     return (
             <div className="app">
                 <About />
-                <Experience />
-                 <Projects />
+                <Experience /> 
+                <Projects />
                 <Contact />
             </div>
     );
