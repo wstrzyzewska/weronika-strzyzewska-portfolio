@@ -1,23 +1,20 @@
 import * as React from "react"
-import { useEffect, useState } from "react";
+import { motion } from "framer-motion"
+import { Document, Page } from "react-pdf"
 
-// const [isDesktop, setIsDesktop] = useState(false);
-// const [isMobile, setIsMobile] = useState(false);
+interface Props {
+  about: string;
+  resume: string;
+}
 
-// useEffect(() => {
-//   if (window.innerWidth > 769) {
-//     setIsDesktop(true);
-//     setIsMobile(false);
-//   } else {
-//     setIsMobile(true);
-//     setIsDesktop(false);
-//   }
-// }, []);
 
-function About() {
+function About({ about, resume }: Props) {
   return (
     <div className="about">
-      <p>About me</p>
+      <p>{about = "Weronika Strzyzewska"}</p>
+      <Document file={resume = ""}>
+        <Page pageNumber={1} />
+      </Document>
     </div>
   )
 }
