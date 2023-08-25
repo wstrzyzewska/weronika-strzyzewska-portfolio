@@ -15,6 +15,7 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@ap.cx/react-fullpage": "^0.3.0",
     "bootstrap": "^3.4.1",
     "framer-motion": "^10.12.21",
     "gatsby": "^5.11.0",
