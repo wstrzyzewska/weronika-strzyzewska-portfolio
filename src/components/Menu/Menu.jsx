@@ -1,11 +1,9 @@
-import React from "react"
+import React from "react";
 
-function Menu() {
+export default function Menu() {
     return (
         <div className="menu">
-            <Link to="/About"></Link>
+            <span>Menu</span>
         </div>
     )
 }
-
-export default Menu

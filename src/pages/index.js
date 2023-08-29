@@ -12,4 +12,4 @@ const IndexPage = () => {
 
 export default IndexPage
 
-export const Head = () => <title>Weronika Strzyzewska - Portfolio</title>
+export const Head = () => <title>Weronika Strzyżewska - Portfolio</title>

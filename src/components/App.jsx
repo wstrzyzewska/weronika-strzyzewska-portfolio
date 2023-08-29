@@ -1,32 +1,22 @@
 import React from 'react'
-// import { useEffect, useState } from 'react'
+
+import {Fullpage, FullpageNavigation, FullpageSection, FullPageSections} from "@ap.cx/react-fullpage";
+
 import About from './About/About';
 import Experience from './Experience/Experience';
 import Projects from './Projects/Projects';
 import Contact from './Contact/Contact';
-// import Footer from './Footer/Footer';
-import {Fullpage, FullpageNavigation, FullpageSection, FullPageSections} from "@ap.cx/react-fullpage";
+import Menu from "./Menu/Menu";
 
 function App() {
-    // const [about, setAbout] = useState({});
-    // const [contact, setContact] = useState({});
-    // const [experience, setExperience] = useState({});
-    // const [projects, setProjects] = useState({});
-
-    const SectionsStyle = {
-        width: '100%',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center'
-    }
-
 
     return (
             <div className="app">
                 <Fullpage>
+                    <Menu />
                     <FullpageNavigation/>
                     <FullPageSections>
-                        <FullpageSection style={{...SectionsStyle}}>
+                        <FullpageSection>
                             <About />
                         </FullpageSection>
                         <FullpageSection>
@@ -39,11 +29,7 @@ function App() {
                             <Contact />
                         </FullpageSection>
                     </FullPageSections>
-
                 </Fullpage>
-
-
-
             </div>
     );
 }
