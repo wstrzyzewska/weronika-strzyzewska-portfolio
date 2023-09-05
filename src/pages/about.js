@@ -1,20 +1,14 @@
 import React from "react";
 
-import {aboutData} from "../data/about";
-import Layout from "../components/Layout/Layout";
+import Layout from "../components/layout";
 
 function About() {
-    const { title, name, summary } = aboutData;
-
     return (
-        <Layout>
-            <section className="about">
-                <span className="about__title">{ title }</span>
-                <span className="about__name">{ name }</span>
-                <span className="about__summary">{ summary }</span>
-            </section>
-        </Layout>
-
+        <div className="about">
+            <Layout>
+                <span className="about__title">Hello</span>
+            </Layout>
+        </div>
     )
 }
 

@@ -1,6 +1,6 @@
 import React from "react"
 
-import Navbar from "../Navbar/Navbar";
+import Navbar from "./navbar";
 
 
 export default function Layout({ children }) {
@@ -11,7 +11,7 @@ export default function Layout({ children }) {
                 { children }
             </div>
             <footer>
-                <p>Werooooonika</p>
+                <p>Made by Weronika Strzyżewska, 2023</p>
             </footer>
         </div>
     )

@@ -1,0 +1,22 @@
+.email {
+  &__content {
+    display: flex;
+    align-items: center;
+    position: relative;
+    border: 5px solid pink;
+    border-radius: 7px;
+      margin: 20px auto;
+      padding: 10px;
+      text-decoration: none;
+    font-family: $font-family-primary;
+    font-size: 2rem;
+    color: $font-primary-color;
+
+
+    &:hover,
+    &:focus {
+      transform: translateY(-3px);
+      background-color: deeppink;
+    }
+  }
+}
