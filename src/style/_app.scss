@@ -1,0 +1,19 @@
+.app {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+
+  &__experience {
+    background: #2c5fcc;
+  }
+
+  &__projects {
+    background: deeppink;
+  }
+
+  section {
+    height: 100vh;
+    scroll-snap-align: start;
+    margin-top: 2.5rem;
+  }
+}

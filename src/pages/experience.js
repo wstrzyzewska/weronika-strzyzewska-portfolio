@@ -1,11 +1,13 @@
 import React from "react";
 
-
+import Layout from "../components/Layout/Layout";
 
 function Experience() {
     return (
         <div className="experience">
-            <p>Experience</p>
+            <Layout>
+                <p>Experience</p>
+            </Layout>
         </div>
     )
 }

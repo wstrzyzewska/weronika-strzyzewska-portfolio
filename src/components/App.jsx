@@ -1,35 +1,27 @@
 import React from 'react'
 
-import {Fullpage, FullpageNavigation, FullpageSection, FullPageSections} from "@ap.cx/react-fullpage";
-
-import About from './About/About';
-import Experience from './Experience/Experience';
-import Projects from './Projects/Projects';
-import Contact from './Contact/Contact';
-import Menu from "./Menu/Menu";
+import Experience from '../pages/experience';
+import Projects from '../pages/projects';
+import Contact from '../pages/contact';
+import Navbar from "./Navbar/Navbar";
+import About from "../pages/about";
 
 function App() {
 
     return (
             <div className="app">
-                <Fullpage>
-                    <Menu />
-                    <FullpageNavigation/>
-                    <FullPageSections>
-                        <FullpageSection>
-                            <About />
-                        </FullpageSection>
-                        <FullpageSection>
-                            <Experience />
-                        </FullpageSection>
-                        <FullpageSection>
-                            <Projects />
-                        </FullpageSection>
-                        <FullpageSection>
-                            <Contact />
-                        </FullpageSection>
-                    </FullPageSections>
-                </Fullpage>
+                <section className="app__about">
+                    <About />
+                </section>
+                <section className="app__experience">
+                    <Experience />
+                </section>
+                <section className="app__projects">
+                    <Projects />
+                </section>
+                <section className="app__contact">
+                    <Contact />
+                </section>
             </div>
     );
 }

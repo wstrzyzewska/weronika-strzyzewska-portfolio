@@ -3,7 +3,13 @@
  */
 module.exports = {
   siteMetadata: {
-    siteUrl: `https://www.yourdomain.tld`,
+    title: 'Weronika Strzyżewska - Portfolio',
+    menuLinks: [
+      {
+        name: 'about',
+        link: '/about'
+      },
+    ]
   },
   plugins: [`gatsby-plugin-sass`],
 }
