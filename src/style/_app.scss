@@ -1,17 +1,9 @@
 .app {
   scroll-snap-type: y mandatory;
   overflow-y: scroll;
-  height: 100vh;
-  width: 100vw;
-  //background: $primary-color;
-
-  &__experience {
-    background: #2c5fcc;
-  }
-
-  &__projects {
-    background: deeppink;
-  }
+  height: $full-screen;
+  width: $full-screen;
+  background: $primary-color;
 
   section {
     height: 100vh;

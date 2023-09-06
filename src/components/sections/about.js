@@ -1,15 +1,13 @@
 import React from "react";
 
-import Layout from "../components/layout";
 
 function About() {
     return (
-        <div className="about">
-            <Layout>
+            <section id="about" className="about">
                 <span className="about__title">Hello</span>
-            </Layout>
-        </div>
+            </section>
     )
 }
+
 
 export default About

@@ -10,7 +10,7 @@ export default function Layout({ children }) {
             <div className="layout__content">
                 { children }
             </div>
-            <footer>
+            <footer className="layout__footer">
                 <p>Made by Weronika Strzyżewska, 2023</p>
             </footer>
         </div>

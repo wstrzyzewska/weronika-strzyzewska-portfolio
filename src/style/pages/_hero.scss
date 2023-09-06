@@ -1,0 +1,17 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: $font-family-primary;
+  color: $font-color-primary;
+
+  &__title {
+    font-size: 4rem;
+    padding-bottom: 2rem;
+  }
+
+  &__description {
+    font-size: 3rem;
+  }
+}

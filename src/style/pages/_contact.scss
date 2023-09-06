@@ -1,6 +1,4 @@
 .contact {
-  background-color: $secondary-color;
-  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -11,14 +9,14 @@
     font-family: $font-family-secondary;
     font-size: 4rem;
     font-weight: 900;
-    color: $font-primary-color;
+    color: $font-color-primary;
     padding-bottom: 2rem;
   }
 
   &__description {
     font-family: $font-family-primary;
     font-size: 1.5rem;
-    color: $font-secondary-color;
+    color: $font-color-secondary;
     padding-bottom: 2rem;
   }
 }
