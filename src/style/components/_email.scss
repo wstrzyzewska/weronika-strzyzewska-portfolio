@@ -4,16 +4,14 @@
   font-family: $font-family-primary;
 
   &__content {
-
     position: relative;
     border: 5px solid $font-color-secondary;
     border-radius: 7px;
-      margin: 20px auto;
-      padding: 10px;
-      text-decoration: none;
+    margin: 20px auto;
+    padding: 10px;
+    text-decoration: none;
     color: $font-color-primary;
     font-weight: 700;
-
 
     &:hover,
     &:focus {
@@ -31,7 +29,8 @@
   textarea {
     height: 15.625rem;
   }
-  input, textarea {
+  input,
+  textarea {
     margin-bottom: 1rem;
     width: 31.25rem;
     border-radius: 0.5rem;

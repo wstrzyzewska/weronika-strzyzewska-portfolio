@@ -1,16 +1,16 @@
-import * as React from "react"
+import * as React from "react";
 
-import App from "../components/app"
+import App from "../components/app";
 
-import "../style/main.scss"
+import "../style/main.scss";
 
 const IndexPage = () => {
   return (
-      <React.StrictMode>
-              <App/>
-      </React.StrictMode>
-  )
-}
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>
+  );
+};
 
-export default IndexPage
-export const Head = () => <title>Weronika Strzyżewska</title>
+export default IndexPage;
+export const Head = () => <title>Weronika Strzyżewska</title>;
