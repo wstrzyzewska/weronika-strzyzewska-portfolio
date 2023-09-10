@@ -1,35 +1,9 @@
-import React, {useEffect, useState} from "react";
+import React from "react";
 
 import {Link} from "gatsby";
 import {navLinks} from "../config";
 
-// const links = [
-//     {
-//         label: 'About',
-//         href: '/#about',
-//     },
-//     {
-//         label: 'Work',
-//         href: '/#work',
-//     },
-// ];
-
 export default function Navbar() {
-
-    const [fix, setFix] = useState(false);
-
-    function setFixed() {
-        if (window.scrollY >= 200) {
-            setFix(true)
-        } else {
-            setFix(false)
-        }
-    }
-
-    useEffect(()=> {
-        window.addEventListener("scroll", setFixed)
-        return () => window.removeEventListener("scroll", setFixed);
-    })
 
     return (
         <header>
@@ -44,6 +18,7 @@ export default function Navbar() {
                         ))
                     }
                 </ol>
+                <button className="navbar__resume">Resume</button>
             </nav>
         </header>
     )

@@ -5,13 +5,26 @@
   align-items: center;
   font-family: $font-family-primary;
   color: $font-color-primary;
+  position: relative;
+
+  &__background {
+    height: calc($full-screen - 90px);
+    width: $full-screen;
+    pointer-events: none;
+    position: absolute;
+  }
 
   &__title {
     font-size: 4rem;
     padding-bottom: 2rem;
+    font-weight: 500;
+    z-index: 2;
   }
 
   &__description {
     font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    z-index: 2;
   }
 }
