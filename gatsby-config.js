@@ -3,13 +3,13 @@
  */
 module.exports = {
   siteMetadata: {
-    title: 'Weronika Strzyżewska - Portfolio',
+    title: "Weronika Strzyżewska - Portfolio",
     menuLinks: [
       {
-        name: 'about',
-        link: '/about'
+        name: "about",
+        link: "/about",
       },
-    ]
+    ],
   },
   plugins: [`gatsby-plugin-sass`],
-}
+};

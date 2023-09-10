@@ -1,0 +1,31 @@
+.experience {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 6rem;
+
+  .css-1v5z4dq-MuiPaper-root-MuiCard-root {
+    background-color: $secondary-color;
+    color: $font-color-menu;
+    border-radius: 2rem;
+  }
+
+  .css-ahj2mt-MuiTypography-root {
+    font-family: $font-family-primary;
+  }
+
+  .css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+    color: $font-color-secondary;
+    font-family: $font-family-secondary;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+  }
+
+  .css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
+    color: $font-color-primary;
+  }
+
+  .css-1aquho2-MuiTabs-indicator {
+    background-color: $line-color;
+  }
+}

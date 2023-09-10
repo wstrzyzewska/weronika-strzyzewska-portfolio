@@ -1,79 +1,89 @@
 @property --gradient-angle {
-    syntax: "<angle>";
-    initial-value: 0deg;
-    inherits: false;
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
 }
 
 @keyframes rotation {
-    0% { --gradient-angle: 0deg; }
-    100% { --gradient-angle: 360deg; }
+  0% {
+    --gradient-angle: 0deg;
+  }
+  100% {
+    --gradient-angle: 360deg;
+  }
 }
 
 .about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  &__box {
+    border-radius: 5rem;
+    width: 50%;
     display: flex;
+    position: relative;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
 
-    &__box {
-        border-radius: 5rem;
-        width: 50%;
-        display: flex ;
-        position: relative;
-        flex-direction: column;
-
-        &::before,
-        &::after {
-            content: "";
-            position: absolute;
-            inset: -0.5rem;
-            background: conic-gradient(
-                            from var(--gradient-angle),
-                            #400872,
-                            #9b25b6,
-                            #5470ff,
-                            #9b25b6,
-                            #400872
-            );
-            border-radius: inherit;
-            animation: rotation 10s linear infinite;
-        }
-
-        &::after {
-            filter: blur(3.5rem);
-        }
-
-        &__details {
-            display: flex;
-            background: $tertiary-color;
-            flex-direction: column;
-            padding: 10rem;
-            z-index: 1;
-            position: relative;
-            border-radius: inherit;
-        }
+    &::before,
+    &::after {
+      content: "";
+      position: absolute;
+      inset: -0.5rem;
+      background: conic-gradient(
+        from var(--gradient-angle),
+        $accent-color-1,
+        $accent-color-2,
+        $accent-color-3,
+        $accent-color-2,
+        $accent-color-1
+      );
+      border-radius: inherit;
+      animation: rotation 10s linear infinite;
     }
 
-
-
-    &__welcome {
-        font-family: $font-family-primary;
-        font-size: 2.5rem;
-        color: $font-color-secondary;
-        padding-bottom: 2rem;
+    &::after {
+      filter: blur(3.5rem);
     }
 
-    &__name {
-        font-family: $font-family-secondary;
-        font-size: 3rem;
-        text-transform: uppercase;
-        color: $font-color-primary;
-        padding-bottom: 2rem;
+    &__details {
+      display: flex;
+      background: $tertiary-color;
+      flex-direction: column;
+      padding: 4rem;
+      z-index: 1;
+      position: relative;
+      border-radius: inherit;
+      left: 3rem;
+      top: 3rem;
     }
+  }
 
-    &__description {
-        font-family: $font-family-primary;
-        font-size: 1.5rem;
-        color: $font-color-menu;
-    }
+  &__welcome {
+    font-family: $font-family-primary;
+    font-size: 2rem;
+    color: $font-color-secondary;
+    padding-bottom: 1.5rem;
+  }
+
+  &__name {
+    font-family: $font-family-secondary;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color: $font-color-primary;
+    padding-bottom: 1.5rem;
+  }
+
+  &__description {
+    font-family: $font-family-primary;
+    font-size: 1.125rem;
+    color: $font-color-menu;
+  }
+
+  &__icons {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 1.5rem;
+  }
 }

@@ -1,12 +1,14 @@
-import React from "react"
+import React from "react";
 
 const Angular = () => (
-    <svg xmlns="http://www.w3.org/2000/svg"
-         viewBox="0 0 448 512"
-         height="35%"
-         width="35%">>
-        <path d="M185.7 268.1h76.2l-38.1-91.6-38.1 91.6zM223.8 32L16 106.4l31.8 275.7 176 97.9 176-97.9 31.8-275.7zM354 373.8h-48.6l-26.2-65.4H168.6l-26.2 65.4H93.7L223.8 81.5z"/>
-    </svg>
+  <svg
+    width="32"
+    height="32"
+    viewBox="0 0 32 32"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path d="M13.24 16.859h5.51l-2.755-6.542zM15.995.01L.917 5.317l2.297 19.677l12.781 6.995l12.786-6.984l2.297-19.688L15.995.015zm9.411 24.396H21.89l-1.896-4.667h-8l-1.896 4.667H6.582l9.411-20.865z" />
+  </svg>
 );
 
 export default Angular;
