@@ -1,22 +1,43 @@
 .email {
+  display: flex;
+  align-items: center;
+  font-family: $font-family-primary;
+
   &__content {
-    display: flex;
-    align-items: center;
+
     position: relative;
-    border: 5px solid pink;
+    border: 5px solid $font-color-secondary;
     border-radius: 7px;
       margin: 20px auto;
       padding: 10px;
       text-decoration: none;
-    font-family: $font-family-primary;
-    font-size: $font-size-description;
     color: $font-color-primary;
+    font-weight: 700;
 
 
     &:hover,
     &:focus {
       transform: translateY(-3px);
-      background-color: deeppink;
+      background-color: $hover-color;
     }
+  }
+
+  form {
+    flex-direction: column;
+  }
+  input {
+    height: 3.125rem;
+  }
+  textarea {
+    height: 15.625rem;
+  }
+  input, textarea {
+    margin-bottom: 1rem;
+    width: 31.25rem;
+    border-radius: 0.5rem;
+    font-size: 1.125rem;
+    font-family: $font-family-secondary;
+    color: $font-color-primary;
+    background-color: $secondary-color;
   }
 }

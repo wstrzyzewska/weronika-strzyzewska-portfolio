@@ -15,10 +15,13 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@emailjs/browser": "^3.11.0",
+    "@heroicons/react": "^2.0.18",
     "bootstrap": "^3.4.1",
     "framer-motion": "^10.12.21",
     "gatsby": "^5.11.0",
     "gatsby-plugin-sass": "^6.11.0",
+    "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.10.1",
