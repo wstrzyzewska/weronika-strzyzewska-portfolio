@@ -8,7 +8,7 @@
   position: relative;
 
   &__background {
-    height: calc($full-screen - 90px);
+    height: calc($full-screen - 5.625rem);
     width: $full-screen;
     pointer-events: none;
     position: absolute;

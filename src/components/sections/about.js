@@ -1,6 +1,4 @@
 import React from "react";
-import Icon from "../icons/icons";
-
 
 function About() {
     return (
