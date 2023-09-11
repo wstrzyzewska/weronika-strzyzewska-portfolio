@@ -1,11 +1,15 @@
 .layout {
   height: $full-screen;
+
   &__contact {
     z-index: 10;
     width: 40px;
     position: fixed;
     top: 200px;
     left: 40px;
+    svg {
+      padding-bottom: 1.5rem;
+    }
   }
   &__footer {
     padding: 1rem;
@@ -15,6 +19,16 @@
     font-family: $font-family-menu;
     font-size: 1rem;
     color: $font-color-menu;
+
+    a {
+      text-decoration: none;
+      color: $font-color-primary;
+      padding: 1rem;
+
+      &:hover {
+        color: $hover-color;
+      }
+    }
   }
 }
 

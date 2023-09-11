@@ -2,30 +2,96 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   padding: 0 6rem;
 
-  .css-1v5z4dq-MuiPaper-root-MuiCard-root {
-    background-color: $secondary-color;
-    color: $font-color-menu;
-    border-radius: 2rem;
-  }
+  .card {
+    z-index: 2;
+    box-sizing: content-box;
+    width: 70%;
+    height: 50%;
 
-  .css-ahj2mt-MuiTypography-root {
-    font-family: $font-family-primary;
-  }
+    &__tabs {
+      font-family: $font-family-menu;
+      color: $font-color-secondary;
+      text-transform: uppercase;
+      display: flex;
+      justify-content: space-between;
 
-  .css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
-    color: $font-color-secondary;
-    font-family: $font-family-secondary;
-    font-size: 1rem;
-    letter-spacing: 0.1rem;
-  }
+      .tab {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        cursor: pointer;
+        position: relative;
+        padding: 0.5rem;
+        border-bottom: 2px solid $accent-color-3;
 
-  .css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
-    color: $font-color-primary;
-  }
+        &:hover {
+          background: $quaternary-color;
+        }
+      }
 
-  .css-1aquho2-MuiTabs-indicator {
-    background-color: $line-color;
+      .active-tab {
+        color: $accent-color-3;
+        border: none;
+
+        &::after {
+          content: "";
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          width: 100%;
+          background: initial;
+          animation: new 0.5s;
+        }
+      }
+    }
+
+    &__contents {
+      font-family: $font-family-primary;
+      color: $font-color-secondary;
+
+      position: relative;
+      padding: 1rem;
+
+      .date {
+        font-size: $font-size-menu;
+        padding-bottom: 1rem;
+        text-align: right;
+      }
+
+      .details {
+        font-size: $font-size-menu;
+        font-weight: 700;
+        padding-bottom: 1rem;
+      }
+
+      .content {
+        display: none;
+        position: relative;
+      }
+
+      .active-content {
+        display: grid;
+        transition: all 1s ease-in-out;
+      }
+
+      ul {
+        list-style: none;
+        padding: 0;
+      }
+
+      li {
+        svg {
+          padding: 0 0.5rem;
+          fill: $accent-color-3;
+        }
+        padding-bottom: 1rem;
+        display: block;
+      }
+    }
   }
 }

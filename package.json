@@ -19,7 +19,6 @@
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
     "@heroicons/react": "^2.0.18",
-    "@mui/material": "^5.14.8",
     "framer-motion": "^10.12.21",
     "gatsby": "^5.11.0",
     "gatsby-plugin-sass": "^6.11.0",

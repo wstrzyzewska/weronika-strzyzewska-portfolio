@@ -39,7 +39,7 @@ export default function Layout({ children }) {
         <hr />
         <span>Made by Weronika Strzyżewska, 2023</span>
         <a className="layout__footer__email" href={`mailto:${email}`}>
-          wstrzyzewska94@gmail.com
+          <Icon type="Mail" /> wstrzyzewska94@gmail.com
         </a>
       </footer>
     </div>
