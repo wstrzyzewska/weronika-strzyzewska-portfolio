@@ -1,12 +1,16 @@
 @import "_variables";
 @import "_fonts";
 @import "_app";
+@import "_mediaquery";
 
-@import "pages/_about";
-@import "pages/_contact";
-@import "pages/_experience";
-@import "pages/_hero";
+@import "sections/_about";
+@import "sections/_contact";
+@import "sections/_experience";
+@import "sections/_hero";
+@import "sections/_projects";
 
 @import "components/navbar";
 @import "components/layout";
 @import "components/email";
+@import "components/loader";
+@import "components/cards";

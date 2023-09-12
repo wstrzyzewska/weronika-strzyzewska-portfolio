@@ -10,9 +10,12 @@
     svg {
       padding-bottom: 1.5rem;
     }
+    @include respond(phone) {
+      display: none;
+    }
   }
   &__footer {
-    padding: 1rem;
+    padding: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -29,12 +32,22 @@
         color: $hover-color;
       }
     }
+
+    &__contact {
+      display: none;
+
+      @include respond(phone) {
+        display: block;
+        padding-bottom: 0.5rem;
+      }
+    }
   }
 }
 
 hr {
   color: $line-color;
-  width: 60%;
+  width: 40%;
+  margin-bottom: 1.5rem;
 }
 
 svg {

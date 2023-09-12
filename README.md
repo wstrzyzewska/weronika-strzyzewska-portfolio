@@ -50,4 +50,4 @@ Deploy this starter with one click on [Netlify](https://app.netlify.com/signup):
 
 ## 🚀 Quick start (Portfolio)
 
-Gatsby, React, Netlify, Framer-motion
+Gatsby, React, Javascript, Sass, Netlify, Framer-motion

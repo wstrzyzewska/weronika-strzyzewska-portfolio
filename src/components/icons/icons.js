@@ -14,6 +14,7 @@ import ReactIcon from "./react";
 import Mail from "./mail";
 import Sass from "./sass";
 import Star from "./star";
+import Logo from "./logo";
 
 const Icon = ({ type }) => {
   switch (type) {
@@ -43,8 +44,10 @@ const Icon = ({ type }) => {
       return <Sass />;
     case "Star":
       return <Star />;
+    case "Logo":
+      return <Logo />;
     default:
-      return <Star />;
+      return <Logo />;
   }
 };
 

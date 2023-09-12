@@ -19,6 +19,7 @@
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
     "@heroicons/react": "^2.0.18",
+    "animate.css": "^4.1.1",
     "framer-motion": "^10.12.21",
     "gatsby": "^5.11.0",
     "gatsby-plugin-sass": "^6.11.0",

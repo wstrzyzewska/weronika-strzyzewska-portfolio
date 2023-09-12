@@ -21,6 +21,12 @@
     font-weight: 700;
     z-index: 2;
     text-transform: uppercase;
+
+    @include respond(phone) {
+      font-size: 1.25rem;
+      padding-bottom: 0.5rem;
+      padding-left: 1rem;
+    }
   }
 
   &__description {
@@ -32,5 +38,11 @@
     left: -4rem;
     z-index: 2;
     color: rgba(234, 240, 246, 0.2);
+    @include respond(phone) {
+      font-size: 1.725rem;
+      padding-bottom: 0.5rem;
+      left: 0.5rem;
+      top: 0;
+    }
   }
 }
