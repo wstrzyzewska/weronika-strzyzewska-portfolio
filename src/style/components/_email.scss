@@ -22,6 +22,12 @@
 
   form {
     flex-direction: column;
+    align-items: center;
+
+    button {
+      width: 40%;
+
+    }
   }
   input {
     height: 3.125rem;
@@ -31,12 +37,23 @@
   }
   input,
   textarea {
+    padding-left: 1rem;
     margin-bottom: 1rem;
     width: 31.25rem;
     border-radius: 0.5rem;
-    font-size: 1.125rem;
+    font-size: 1rem;
     font-family: $font-family-secondary;
     color: $font-color-primary;
-    background-color: $secondary-color;
+    background-color: $tertiary-color;
+    border-color: $secondary-color;
+
+    &:focus {
+      background-color: $secondary-color;
+    }
+
+    &::placeholder {
+      font-family: $font-family-secondary;
+      color: $font-color-secondary;
+    }
   }
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import { useMotionTemplate, useMotionValue, motion } from "framer-motion";
+import {useMotionTemplate, useMotionValue, motion, useScroll, useTransform} from "framer-motion";
 
 function Hero() {
   let mouseX = useMotionValue(0);
@@ -20,8 +20,8 @@ function Hero() {
           background: useMotionTemplate`radial-gradient(300px circle at ${mouseX}px ${mouseY}px, #9b25b6 0%, #400872 40%, transparent 80%)`,
         }}
       />
-      <span className="hero__title">Weronika Strzyżewska</span>
-      <span className="hero__description">Front-End Developer</span>
+            <span className="hero__title">Weronika Strzyżewska</span>
+            <span className="hero__description">Front-End Developer</span>
     </section>
   );
 }

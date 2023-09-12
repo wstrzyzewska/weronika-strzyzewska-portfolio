@@ -13,6 +13,7 @@ import Angular from "./angular";
 import ReactIcon from "./react";
 import Mail from "./mail";
 import Sass from "./sass";
+import Star from "./star";
 
 const Icon = ({ type }) => {
   switch (type) {
@@ -40,8 +41,10 @@ const Icon = ({ type }) => {
       return <Mail />;
     case "Sass":
       return <Sass />;
+    case "Star":
+      return <Star />;
     default:
-      return <Github />;
+      return <Star />;
   }
 };
 
