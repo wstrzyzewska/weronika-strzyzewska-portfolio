@@ -46,6 +46,9 @@
     color: $font-color-primary;
     background-color: $tertiary-color;
     border-color: $secondary-color;
+    @include respond(phone) {
+      width: 20rem;
+    }
 
     &:focus {
       background-color: $secondary-color;

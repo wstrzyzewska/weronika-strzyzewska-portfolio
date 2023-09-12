@@ -2,13 +2,14 @@ import React from "react";
 
 import { Link } from "gatsby";
 import { navLinks } from "../config";
+import Icon from "./icons/icons";
 
 export default function Navbar() {
   return (
     <header>
       <nav className="navbar">
         <a href="/" className="navbar__logo">
-          Logo
+          <Icon type="Logo" />
         </a>
         <ol className="navbar__list">
           {navLinks &&
@@ -20,7 +21,10 @@ export default function Navbar() {
               </li>
             ))}
         </ol>
-        <button className="navbar__resume">Resume</button>
+        <button className="navbar__resume">
+          <a href="https://drive.google.com/file/d/1tXsYOrzZrgw8VAA5xz8Z86I2_VLokWls/view?usp=sharing" target="_blank" rel="noreferrer">
+            Resume
+          </a></button>
       </nav>
     </header>
   );

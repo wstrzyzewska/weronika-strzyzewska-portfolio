@@ -4,12 +4,19 @@
   align-items: center;
   flex-direction: column;
   padding: 0 6rem;
+  @include respond(phone) {
+    padding: 0;
+  }
 
   .card {
     z-index: 2;
     box-sizing: content-box;
     width: 70%;
     height: 50%;
+    @include respond(phone) {
+      width: 90%;
+      height: 70%;
+    }
 
     &__tabs {
       font-family: $font-family-menu;
@@ -17,6 +24,9 @@
       text-transform: uppercase;
       display: flex;
       justify-content: space-between;
+      @include respond(phone) {
+        font-size: 0.725rem;
+      }
 
       .tab {
         display: flex;
@@ -60,13 +70,17 @@
       .date {
         font-size: $font-size-menu;
         padding-bottom: 1rem;
-        text-align: right;
       }
 
       .details {
         font-size: $font-size-menu;
-        font-weight: 700;
+        font-weight: 600;
         padding-bottom: 1rem;
+        text-transform: uppercase;
+      }
+
+      .grid {
+
       }
 
       .content {

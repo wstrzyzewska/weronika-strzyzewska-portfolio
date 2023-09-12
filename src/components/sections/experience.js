@@ -30,6 +30,9 @@ function Experience() {
                     <span className="date">2022 - present</span>
                     <span className="details">Developing cryptocurrency exchanges website using Angular 15, Angular 16, Typescript,
                         Sass, NgRx, RxJS</span>
+                    <div className="grid">
+
+                    </div>
                     <ul>
                         <li><Icon type="Star"/>Successfully updating the technology stack of the website,
                             migrating it to modern versions of frameworks,
@@ -46,17 +49,17 @@ function Experience() {
                 </div>
                 <div className={`${state===1 ? "content active-content" : "content"}`}>
                     <span className="date">2021 - 2022</span>
-                    <span>Worked on Cockpit Panel for German's electronic devices using Angular 13, AngularJS,
+                    <span className="details">Worked on Cockpit Panel for German's electronic devices using Angular 13, AngularJS,
                         Javascript, Typescript, Sass, Jasmine, Karma</span>
                 </div>
                 <div className={`${state===2 ? "content active-content" : "content"}`}>
                     <span className="date">2021 - 2022</span>
-                    <span>Developed Labels & Packaging website for German using Angular 13, Typescript, Storybook, Sass,
+                    <span className="details">Developed Labels & Packaging website for German using Angular 13, Typescript, Storybook, Sass,
                         Jest, NGXS</span>
                 </div>
                 <div className={`${state===3 ? "content active-content" : "content"}`}>
                     <span className="date">2021 - 2022</span>
-                    <span>Created sales dashboards for Spanish using React, Typescript, Sass, Jest,
+                    <span className="details">Created sales dashboards for Spanish using React, Typescript, Sass, Jest,
                         react-testing-library, Redux</span>
                 </div>
             </div>
