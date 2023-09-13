@@ -4,7 +4,28 @@
   align-items: center;
   flex-direction: column;
   padding: 0 6rem;
+  font-family: $font-family-primary;
   @include respond(phone) {
     padding: 0;
+  }
+}
+
+.titles {
+  position: relative;
+  h3 {
+    font-size: 4rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke: 1.5px $font-color-secondary;
+    background-image: linear-gradient($accent-color-2, $accent-color-3);
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: titleAnimation 6s linear infinite;
+    animation-delay: 1s;
+  }
+  @include respond(phone) {
+    display: none;
   }
 }

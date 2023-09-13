@@ -1,0 +1,51 @@
+.mobilenav {
+align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  display: none;
+  background: rgba(97, 89, 168, 0.2);
+  backdrop-filter: blur(10px);
+  position: absolute;
+  width:92%;
+  z-index: 100;
+  @include respond(phone) {
+    display: flex;
+  }
+
+  &__hamburger {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    &__button {
+      svg {
+        fill: $font-color-menu;
+        stroke: $font-color-menu;
+      }
+    }
+  }
+
+
+
+  &__list {
+    list-style: none;
+    font-family: $font-family-menu;
+
+    &__details {
+      display: block;
+      position: relative;
+      padding-left: 0.5rem;
+      text-align: right;
+      text-transform: uppercase;
+
+      &__links {
+        text-decoration: none;
+        color: $font-color-menu;
+
+        &:hover {
+          color: $hover-color-menu;
+        }
+      }
+    }
+
+  }
+}

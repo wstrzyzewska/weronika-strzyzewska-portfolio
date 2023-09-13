@@ -1,10 +1,11 @@
-import React from "react";
+import React, {useState} from "react";
 
 import { Link } from "gatsby";
 import { navLinks } from "../config";
 import Icon from "./icons/icons";
 
 export default function Navbar() {
+
   return (
     <header>
       <nav className="navbar">
@@ -22,7 +23,7 @@ export default function Navbar() {
             ))}
         </ol>
         <button className="navbar__resume">
-          <a href="https://drive.google.com/file/d/1tXsYOrzZrgw8VAA5xz8Z86I2_VLokWls/view?usp=sharing" target="_blank" rel="noreferrer">
+          <a href="https://drive.google.com/file/d/1LW8q_BcV4Nvp06ydCd5KtA8i_JmXag-2/view?usp=sharing" target="_blank" rel="noreferrer">
             Resume
           </a></button>
       </nav>

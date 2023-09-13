@@ -3,6 +3,7 @@ import React from "react";
 import Navbar from "./navbar";
 import Icon from "./icons/icons";
 import { email } from "../config";
+import {MobileNavLinks} from "./mobileNavLinks";
 
 export default function Layout({ children }) {
   return (
@@ -32,6 +33,7 @@ export default function Layout({ children }) {
       </div>
 
       <Navbar />
+        <MobileNavLinks/>
 
       <div className="layout__content">{children}</div>
 
