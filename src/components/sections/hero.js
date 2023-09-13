@@ -1,5 +1,5 @@
 import React from "react";
-import {useMotionTemplate, useMotionValue, motion} from "framer-motion";
+import { useMotionTemplate, useMotionValue, motion } from "framer-motion";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 
@@ -22,15 +22,16 @@ function Hero() {
           background: useMotionTemplate`radial-gradient(300px circle at ${mouseX}px ${mouseY}px, #9b25b6 0%, #400872 40%, transparent 80%)`,
         }}
       />
-        <TrackVisibility>
-            {({ isVisible }) =>
-            <div className={isVisible ? "animate__animated animate__fadeInLeft" : ""}>
-              <span className="hero__title">Weronika Strzyżewska</span>
-              <span className="hero__description">Front-End Developer</span>
-            </div>
-            }
-        </TrackVisibility>
-
+      <TrackVisibility>
+        {({ isVisible }) => (
+          <div
+            className={isVisible ? "animate__animated animate__fadeInLeft" : ""}
+          >
+            <span className="hero__title">Weronika Strzyżewska</span>
+            <span className="hero__description">Front-End Developer</span>
+          </div>
+        )}
+      </TrackVisibility>
     </section>
   );
 }

@@ -86,22 +86,22 @@
       }
 
       .grid1 {
-          display: grid;
+        display: grid;
         align-items: center;
-          grid-template-columns: 0.1fr 3.5fr;
-          grid-template-rows: 1fr 1fr 1fr 1fr;
-          gap: 0 0;
-          grid-template-areas:
-            "icon1 content1"
-            "icon2 content2"
-            "icon3 content3"
-            "icon4 content4";
+        grid-template-columns: 0.1fr 3.5fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        gap: 0 0;
+        grid-template-areas:
+          "icon1 content1"
+          "icon2 content2"
+          "icon3 content3"
+          "icon4 content4";
         color: $font-color-hover;
         @include respond(phone) {
           font-size: 0.8rem;
           grid-template-rows: 0.6fr 0.6fr 0.5fr 1fr;
         }
-        }
+      }
 
       .grid2 {
         display: grid;
@@ -110,10 +110,10 @@
         grid-template-rows: 1fr 1fr 1fr 1fr;
         gap: 1rem 0;
         grid-template-areas:
-            "icon1 content1"
-            "icon2 content2"
-            "icon3 content3"
-            "icon4 content4";
+          "icon1 content1"
+          "icon2 content2"
+          "icon3 content3"
+          "icon4 content4";
         color: $font-color-hover;
         @include respond(phone) {
           font-size: 0.8rem;
@@ -121,10 +121,18 @@
         }
       }
 
-      .content1 { grid-area: content1; }
-        .content2 { grid-area: content2; }
-        .content3 { grid-area: content3; }
-        .content4 {grid-area: content4; }
+      .content1 {
+        grid-area: content1;
+      }
+      .content2 {
+        grid-area: content2;
+      }
+      .content3 {
+        grid-area: content3;
+      }
+      .content4 {
+        grid-area: content4;
+      }
 
       .content {
         display: none;

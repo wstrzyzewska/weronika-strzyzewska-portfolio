@@ -77,10 +77,13 @@ button {
 }
 
 @keyframes titleAnimation {
-  0%, 10%, 100% {
+  0%,
+  10%,
+  100% {
     background-position: -33rem 0;
   }
-  65%, 85% {
+  65%,
+  85% {
     background-position: 0 0;
   }
 }

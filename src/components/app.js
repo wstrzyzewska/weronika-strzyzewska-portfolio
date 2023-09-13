@@ -9,7 +9,6 @@ import Layout from "./layout";
 import Projects from "./sections/projects";
 
 function App() {
-
   return (
     <div className="app">
       <Layout>
@@ -17,7 +16,7 @@ function App() {
           <Hero />
         </section>
         <section className="app__about">
-            <About />
+          <About />
         </section>
         <section className="app__experience">
           <Experience />
