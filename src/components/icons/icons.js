@@ -15,6 +15,7 @@ import Mail from "./mail";
 import Sass from "./sass";
 import Star from "./star";
 import Logo from "./logo";
+import Menu from "./menu";
 
 const Icon = ({ type }) => {
   switch (type) {
@@ -46,6 +47,8 @@ const Icon = ({ type }) => {
       return <Star />;
     case "Logo":
       return <Logo />;
+    case "Menu":
+      return <Menu />;
     default:
       return <Logo />;
   }
