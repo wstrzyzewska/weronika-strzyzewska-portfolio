@@ -27,7 +27,7 @@ export default function Cards() {
   ];
 
   const cardLinkDescription = [
-    "Tech stack: Gatsby, React, Netlify, Javascript, SCSS, HTML5, animate.css, Framer-motion",
+    "Link to portfolio",
   ];
 
   return (
