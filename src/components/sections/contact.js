@@ -1,17 +1,21 @@
 import React from "react";
 
 import Email from "../email";
+import Footer from "../footer";
 
 function Contact() {
   return (
     <section id="contact" className="contact">
-      <span className="contact__title">Feel free to contact me</span>
-      <span className="contact__description">
+        <div className="contact__details">
+            <span className="contact__details__title">Feel free to contact me</span>
+            <span className="contact__details__description">
         I'm currently looking for new job opportunities in GTA, Canada.
       </span>
-      <div>
-        <Email />
-      </div>
+            <Email />
+        </div>
+        <div className="contact__footer">
+            <Footer />
+        </div>
     </section>
   );
 }

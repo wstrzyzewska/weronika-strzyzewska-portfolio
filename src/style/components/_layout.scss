@@ -14,41 +14,9 @@
       display: none;
     }
   }
-  &__footer {
-    padding: 2rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-family: $font-family-menu;
-    font-size: 1rem;
-    color: $font-color-menu;
-
-    a {
-      text-decoration: none;
-      color: $font-color-primary;
-      padding: 1rem;
-
-      &:hover {
-        color: $hover-color;
-      }
-    }
-
-    &__contact {
-      display: none;
-
-      @include respond(phone) {
-        display: block;
-        padding-bottom: 0.5rem;
-      }
-    }
-  }
 }
 
-hr {
-  color: $line-color;
-  width: 40%;
-  margin-bottom: 1.5rem;
-}
+
 
 svg {
   fill: $font-color-menu;
