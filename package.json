@@ -22,6 +22,7 @@
     "animate.css": "^4.1.1",
     "framer-motion": "^10.12.21",
     "gatsby": "^5.11.0",
+    "gatsby-plugin-manifest": "^5.12.0",
     "gatsby-plugin-sass": "^6.11.0",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
