@@ -8,7 +8,7 @@ function Projects() {
       <span className="titles">
         <h3>Projects</h3>
       </span>
-            <Cards />
+      <Cards />
     </section>
   );
 }

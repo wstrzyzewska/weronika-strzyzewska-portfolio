@@ -6,16 +6,16 @@ import Footer from "../footer";
 function Contact() {
   return (
     <section id="contact" className="contact">
-        <div className="contact__details">
-            <span className="contact__details__title">Feel free to contact me</span>
-            <span className="contact__details__description">
-        I'm currently looking for new job opportunities in GTA, Canada.
-      </span>
-            <Email />
-        </div>
-        <div className="contact__footer">
-            <Footer />
-        </div>
+      <div className="contact__details">
+        <span className="contact__details__title">Feel free to contact me</span>
+        <span className="contact__details__description">
+          I'm currently looking for new job opportunities in GTA, Canada.
+        </span>
+        <Email />
+      </div>
+      <div className="contact__footer">
+        <Footer />
+      </div>
     </section>
   );
 }

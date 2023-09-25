@@ -15,15 +15,15 @@ export default function Cards() {
   const cardTitles = ["Personal portfolio"];
 
   const cardDescriptions = [
-    "          My professional portfolio - a comprehensive showcase of my experience and ongoing skill development as a " +
-    "Front-End Developer."
+    "My professional portfolio - a comprehensive showcase of my experience and ongoing skill development as a " +
+      "Front-End Developer.",
   ];
   const cardTechStack = [
-    "Tech stack: Gatsby, React, Netlify, Javascript, Sass, HTML5, animate.css, Framer-motion",
+      "Tech stack: Gatsby, React, Netlify, Javascript, Sass, HTML5, animate.css, Framer-motion",
   ];
 
   const cardLink = [
-    "Tech stack: Gatsby, React, Netlify, Javascript, Sass, HTML5, animate.css, Framer-motion",
+    "https://github.com/wstrzyzewska/weronika-strzyzewska-portfolio",
   ];
 
   const cardLinkDescription = [
@@ -48,17 +48,15 @@ export default function Cards() {
           <div className="card__content">
             <h2 className="card__content__title">{cardTitles[index]}</h2>
             {index === expandedIndex && (
-                <div>
-              <p className="card__content__description">
-                {cardDescriptions[index]}
-              </p>
-                <p className="card__content__stack">
-                  {cardTechStack[index]}
+              <div>
+                <p className="card__content__description">
+                  {cardDescriptions[index]}
                 </p>
-                  <a href={cardLink[index]} className="card__content__link">
-                    {cardLinkDescription[index]}
-                  </a>
-                </div>
+                <p className="card__content__stack">{cardTechStack[index]}</p>
+                <a href={cardLink[index]} className="card__content__link">
+                  {cardLinkDescription[index]}
+                </a>
+              </div>
             )}
           </div>
         </motion.div>

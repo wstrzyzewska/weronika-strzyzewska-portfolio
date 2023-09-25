@@ -5,11 +5,13 @@ module.exports = {
   siteMetadata: {
     title: "Weronika Strzyżewska - Portfolio",
   },
-  plugins: [`gatsby-plugin-sass`,
+  plugins: [
+    `gatsby-plugin-sass`,
     {
-      resolve: 'gatsby-plugin-manifest',
+      resolve: "gatsby-plugin-manifest",
       options: {
-        "icon": "src/images/icon.png"
-      }
-    }],
+        icon: "src/images/icon.png",
+      },
+    },
+  ],
 };
