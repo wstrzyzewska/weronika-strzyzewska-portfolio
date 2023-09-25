@@ -1,5 +1,7 @@
 import React from "react";
 import Icon from "../icons/icons";
+import "animate.css";
+import TrackVisibility from "react-on-screen";
 
 function About() {
   return (
