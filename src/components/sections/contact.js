@@ -9,7 +9,7 @@ function Contact() {
       <div className="contact__details">
         <span className="contact__details__title">Feel free to contact me</span>
         <span className="contact__details__description">
-          I'm currently looking for new job opportunities in GTA, Canada.
+          I'm currently looking for new job opportunities.
         </span>
         <Email />
       </div>
