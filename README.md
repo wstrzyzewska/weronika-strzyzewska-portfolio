@@ -1,53 +1,28 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby Minimal Starter
-</h1>
+# Professional Front-End Developer Portfolio
 
-## 🚀 Quick start
+Welcome to my professional portfolio! This repository serves as a comprehensive showcase of my experience and ongoing skill development as a Front-End Developer.
 
-1.  **Create a Gatsby site.**
+## Tech Stack
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+- Gatsby
+- React
+- Netlify
+- JavaScript
+- Sass
+- HTML5
+- animate.css
+- Framer Motion
 
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
+## Features
 
-2.  **Start developing.**
+- [x] Responsive web design
+- [x] Interactive user interfaces
+- [x] Fast loading times
+- [x] Cross-browser compatibility
+- [x] Smooth animations and transitions
 
-    Navigate into your new site’s directory and start it up.
+## Contact
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
+Feel free to reach out to me at [wstrzyzewska94@gmail.com](mailto:wstrzyzewska94@gmail.com) for collaboration or inquiries.
 
-3.  **Open the code and start customizing!**
-
-    Your site is now running at http://localhost:8000!
-
-    Edit `src/pages/index.js` to see your site update in real-time!
-
-4.  **Learn more**
-
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Tutorials](https://www.gatsbyjs.com/docs/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Guides](https://www.gatsbyjs.com/docs/how-to/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-## 🚀 Quick start (Netlify)
-
-Deploy this starter with one click on [Netlify](https://app.netlify.com/signup):
-
-[<img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify" />](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-minimal)
-
-## 🚀 Quick start (Portfolio)
-
-Gatsby, React, Javascript, Sass, Netlify, Framer-motion
+Thank you for visiting my portfolio!
