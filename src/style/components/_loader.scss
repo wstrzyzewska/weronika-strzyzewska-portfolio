@@ -18,19 +18,16 @@
     border-bottom-width: 8px;
     border-color: $accent-color-1;
     animation: rotate1 2s linear infinite;
-
   }
   &__element:nth-child(2) {
     border-right-width: 8px;
     border-color: $accent-color-2;
     animation: rotate2 2s linear infinite;
-
   }
   &__element:nth-child(3) {
     border-top-width: 8px;
     border-color: $accent-color-3;
     animation: rotate3 2s linear infinite;
-
   }
 }
 
