@@ -9,7 +9,7 @@ You can find it at [https://weronika-strzyzewska.netlify.app/](https://weronika-
 - React
 - Netlify
 - JavaScript
-- Sass
+- SCSS
 - HTML5
 - animate.css
 - Framer Motion
