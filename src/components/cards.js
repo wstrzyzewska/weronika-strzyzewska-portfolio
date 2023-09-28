@@ -19,7 +19,7 @@ export default function Cards() {
       "Front-End Developer.",
   ];
   const cardTechStack = [
-      "Tech stack: Gatsby, React, Netlify, Javascript, Sass, HTML5, animate.css, Framer-motion",
+      "Tech stack: Gatsby, React, Netlify, Javascript, SCSS, HTML5, animate.css, Framer-motion",
   ];
 
   const cardLink = [
