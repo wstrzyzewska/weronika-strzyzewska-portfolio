@@ -1,11 +1,4 @@
 .loader {
-  background: $primary-color;
-  height: $full-screen;
-  width: $full-screen;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
 
   &__element {
     height: 200px;

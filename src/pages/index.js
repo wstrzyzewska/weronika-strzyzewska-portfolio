@@ -1,13 +1,32 @@
-import * as React from "react";
+import React, {useEffect, useState} from "react";
 
 import App from "../components/app";
 
 import "../style/main.scss";
+import Loader from "../components/loader";
 
 const IndexPage = () => {
-  return (
+
+    const [loading, setLoading] = useState(false);
+
+    useEffect(() => {
+        setLoading(true);
+        setTimeout(() => {
+            setLoading(false);
+        }, 000);
+    }, []);
+
+
+    return (
     <React.StrictMode>
-      <App />
+        <div>
+            {loading ? (
+                <Loader />
+            ) : (
+                <App />
+            )}
+        </div>
+
     </React.StrictMode>
   );
 };
