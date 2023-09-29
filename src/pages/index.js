@@ -13,7 +13,7 @@ const IndexPage = () => {
         setLoading(true);
         setTimeout(() => {
             setLoading(false);
-        }, 000);
+        }, 2000);
     }, []);
 
 
