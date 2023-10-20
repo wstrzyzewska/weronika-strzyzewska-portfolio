@@ -10,7 +10,7 @@ function About() {
           <span className="about__welcome">Hello, my name is </span>
           <span className="about__name">Weronika Strzyżewska</span>
           <span className="about__description">
-            I am a highly motivated and detail-oriented developer with 2 years
+            I am a highly motivated and detail-oriented developer with few years
             of experience in designing and implementing intuitive user
             interfaces. My proficiency lies in HTML, CSS, Typescript, and
             JavaScript, and I possess a strong foundation in front-end
