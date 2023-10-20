@@ -14,7 +14,7 @@ function About() {
             of experience in designing and implementing intuitive user
             interfaces. My proficiency lies in HTML, CSS, Typescript, and
             JavaScript, and I possess a strong foundation in front-end
-            frameworks such as React and Angular. Additionally, I have a solid
+            frameworks such as React, Vue and Angular. Additionally, I have a solid
             understanding of WordPress, a popular content management system, and
             can create custom themes and plugins to enhance website
             functionality.
