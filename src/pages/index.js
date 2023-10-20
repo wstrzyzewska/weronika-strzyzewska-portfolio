@@ -3,30 +3,12 @@ import React, {useEffect, useState} from "react";
 import App from "../components/app";
 
 import "../style/main.scss";
-import Loader from "../components/loader";
 
 const IndexPage = () => {
 
-    const [loading, setLoading] = useState(false);
-
-    useEffect(() => {
-        setLoading(true);
-        setTimeout(() => {
-            setLoading(false);
-        }, 2000);
-    }, []);
-
-
     return (
     <React.StrictMode>
-        <div>
-            {loading ? (
-                <Loader />
-            ) : (
-                <App />
-            )}
-        </div>
-
+        <App />
     </React.StrictMode>
   );
 };
