@@ -11,7 +11,7 @@ export default function Footer() {
         <Icon type="Logo" />
       </a>
       <a className="footer__email" href={`mailto:${email}`}>
-        <Icon type="Mail" /> wstrzyzewska94@gmail.com
+        <Icon type="Mail" />veronicastrzyzewska@gmail.com
       </a>
       <div className="footer__contact">
         <a
