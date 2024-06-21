@@ -23,7 +23,7 @@ export default function Navbar() {
         </ol>
         <button className="navbar__resume">
           <a
-            href="https://docs.google.com/document/d/1hXP8kVLYGF427QVMMuwj6AKz8Zq8K1Er/edit?usp=drive_link&ouid=114660087232658650151&rtpof=true&sd=true"
+            href=""
             target="_blank"
             rel="noreferrer"
           >
