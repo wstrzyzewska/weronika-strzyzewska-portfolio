@@ -24,6 +24,6 @@ You can find it at [https://weronika-strzyzewska.netlify.app/](https://weronika-
 
 ## Contact
 
-Feel free to reach out to me at [veronicastrzyzewska@gmail.com](mailto:veronicastrzyzewska@gmail.com) for collaboration or inquiries.
+Feel free to reach out to me at [wstrzyzewska@gmail.com](mailto:wstrzyzewska@gmail.com) for collaboration or inquiries.
 
 Thank you for visiting my portfolio!
