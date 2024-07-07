@@ -16,7 +16,7 @@ function Experience() {
             onClick={() => action(0)}
             className={`${state === 0 ? "tab active-tab" : "tab"}`}
           >
-            Monster Software
+            Solutions of Future
           </div>
           <div
             onClick={() => action(1)}
